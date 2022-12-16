@@ -1,0 +1,5 @@
+{
+    "env": {
+        "MONGO_DB_URI": "mongodb+srv://kasheesh:sensorberg@sensorberg.c16vwb8.mongodb.net/sensorberg?retryWrites=true&w=majority"
+    }
+}

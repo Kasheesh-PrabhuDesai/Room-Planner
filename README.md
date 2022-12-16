@@ -11,13 +11,13 @@ Letting users book individual desks in the rooms having desks
 
 TWO APPS HAVE BEEN CREATED ONE FOR THE CLIENT SIDE UI AND THE OTHER FOR THE SERVER SIDE. THE NAMES ARE CLIENT AND SERVER.
 
-SERVER SIDE
+# SERVER SIDE
 The server side app is implemented using express.js with mongodb as the database and mongoose to connect to mongo db. All the CRUD applications have been coded. However, to closely match the challenge, the create and edit cannot be used in this challenge.Typescript has been used to implement the server side app. The dist directory will serve as an output folder once the code has compiled to plain JavaScript. We also have an app.ts file that is the entry point of the server. The server is run concurrently. Concurrently will help compile the TypeScript code, keep watching for changes, and also start the server simultaneously.
 
-CLIENT SIDE
+# CLIENT SIDE
 The main thing to notice is that src/type.d.ts will hold all the types. And since I will use them on almost every file, I added the extension .d.ts to make the types globally available. So now we don't need to import them anymore. The client side is coded using React.js for the UI and typescript. Three reusable components have been created. One to display the rooms, one to search for rooms and the last for displaying the navbar.
 
-STEPS TO RUN THE CHALLENGE
+# STEPS TO RUN THE CHALLENGE
 Follow the steps below
 
 Open a terminal
